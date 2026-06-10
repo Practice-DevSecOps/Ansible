@@ -1,11 +1,11 @@
 -name: playlevel veriable
-  hosts: local
-  connection: local #connection local means that the playbook will run on the localhost
-  vars:
-    COURSE: Ansible
-    DURATION: 10HRS
-    Trainer: Ashok kumar
-  tasks:
-  - name: print the course info
-    ansible.builtin.debug:
-      msg: "Course Name is: {{ COURSE }}, Duratioin: {{ DURATION }}, Trainer: {{ Trainer }}"
+hosts: local
+connection: local #connection local means that the playbook will run on the localhost
+vars:
+  COURSE: Ansible
+  DURATION: 10HRS
+  Trainer: Ashok kumar
+tasks:
+- name: print the course inf
+  ansible.builtin.debug:
+   msg: "Course Name is: {{ COURSE }}, Duratioin: {{ DURATION }}, Trainer: {{ Trainer }}"
