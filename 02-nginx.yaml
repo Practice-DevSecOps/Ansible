@@ -1,5 +1,6 @@
 - name: install nginx
-  hosts: ansible2
+  hosts: local
+  connection: local # Ansible is connecting to localhost
   become: true
   tasks:
    - name: install nginx
