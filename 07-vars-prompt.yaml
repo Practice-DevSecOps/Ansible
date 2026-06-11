@@ -1,6 +1,6 @@
-- name : veriabls fom promt
+- name : variables from prompt
   hosts: local
-  conncetion: local
+  connection: local
   vars_prompt:
   - name: username
     prompt: what is your username?
