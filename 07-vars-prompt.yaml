@@ -5,6 +5,9 @@
   - name: username
     prompt: user login name
     private: false
+  - name: password
+    prompt: user login password
+    private: true
   tasks:
   - name: print the username
     ansible.builtin.debug:
