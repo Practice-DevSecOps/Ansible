@@ -1,5 +1,6 @@
 - name: ping the server
-  hosts: ansible2
+  hosts: local
+  connection: local #ansible_connection=local
   tasks:
    - name: ping
      ansible.builtin.ping:
