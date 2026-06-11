@@ -3,7 +3,7 @@
   conncetion: local
   vars_prompt:
   - name: username
-    prompt: username for login
+    prompt: what is your username?
     private: false
   tasks:
   - name: print the username
