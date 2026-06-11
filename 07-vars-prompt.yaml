@@ -3,7 +3,7 @@
   connection: local
   vars_prompt:
   - name: username
-    prompt: what is your username?
+    prompt: user login name
     private: false
   tasks:
   - name: print the username
