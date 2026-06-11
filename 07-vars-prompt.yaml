@@ -1,0 +1,12 @@
+- name : veriabls fom promt
+  hosts: local
+  conncetion: local
+  vars_prompt:
+  - name: username
+    prompt: username for login
+    private: false
+  tasks:
+  - name: print the username
+    ansible.builtin.debug:
+      msg: "Username is {{ username }}"
+
