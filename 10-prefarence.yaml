@@ -16,7 +16,7 @@
     ansible.builtin.debug:
       msg: "Name: {{ NAME }}"
 
-# 1. args or command line
+# 1. args or command line command line have no space
 # 2. from task
 # 3. files
 # 4. prompt
