@@ -1,0 +1,7 @@
+- name : Veriable form Aurgs
+  hosts : localhost
+  connection : local
+  tasks :
+    -name : print course name
+     ansible.builtin.debug:
+        msg : "Course name is {{ course_name }}, Duration is {{ duration }} and price is {{ price }}"
